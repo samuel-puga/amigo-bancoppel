@@ -1,0 +1,38 @@
+{
+  "name": "amigo-bancoppel-mvp",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "oxfmt src App.tsx scripts",
+    "bundle:mobile": "node scripts/generate-mobile-bundle.js",
+    "serve:mobile": "node scripts/serve-mobile.js",
+    "start:mobile": "node scripts/start-mobile.js",
+    "start": "expo start",
+    "android": "expo start --android"
+  },
+  "dependencies": {
+    "expo": "~57.0.25",
+    "expo-status-bar": "~57.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-native": "0.86.3",
+    "react-native-webview": "13.16.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "oxfmt": "^0.2.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0",
+    "vite": "^8.0.5",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}

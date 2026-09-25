@@ -1,0 +1,15 @@
+.mb-root { -webkit-font-smoothing: antialiased; }
+.mb-root *, .mb-root *::before, .mb-root *::after { box-sizing: border-box; }
+.mb-root input::placeholder { color: #9CA3AF; font-weight: 400; }
+.mb-root button { font-family: inherit; }
+.mb-scroll { scrollbar-width: none; }
+.mb-scroll::-webkit-scrollbar { display: none; }
+.mb-press:active { transform: scale(0.94); }
+.mb-primary:active { background: #1631B8 !important; }
+.mb-outline:active { background: #EEF1FE !important; }
+.mb-input:focus { border-color: #1C42E8 !important; background: #FFFFFF !important; }
+.mb-icon-btn:hover { background: #F0F2F5 !important; }
+.mb-root button:focus-visible { outline: 2px solid #1C42E8; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  .mb-root *, .mb-root *::before, .mb-root *::after { transition-duration: 0s !important; animation-duration: 0s !important; }
+}

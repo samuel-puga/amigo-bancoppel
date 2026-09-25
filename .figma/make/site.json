@@ -1,0 +1,10 @@
+{
+  "description": "Allows users to design and test interactive prototypes, enabling efficient visualization and refinement of app or website concepts before development.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

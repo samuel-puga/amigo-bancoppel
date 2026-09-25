@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "98514192547",
+    "project_id": "amigo-bancoppel",
+    "storage_bucket": "amigo-bancoppel.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98514192547:android:8e5416d191d05f6e7e5716",
+        "android_client_info": {
+          "package_name": "com.bancoppel.amigobancoppel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjXuQENZfxuqhf821Lvve3Jx-WTDHAixQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
